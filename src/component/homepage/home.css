@@ -1,0 +1,90 @@
+/*===================
+        header
+=====================*/
+.home-body{
+    height: 100vh;
+    width: 100%; 
+}
+
+.home-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 85%;
+    margin-left: 7.5%;
+
+}    
+
+.home-input{
+    height: 70px;
+    width: 690px;
+    margin-right: 200px;
+}
+.home-input input{
+    width: 100%;
+    height: 100%;
+    border-radius: 40px;
+    border: none;
+    outline: none;
+    background-color: #D9D9D9;
+    color: black;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    
+}
+.home-input input::placeholder{
+    color: gray;   
+    font-size: 1rem;
+   
+}
+/*===================
+        Watching
+=====================*/
+.watching{
+    margin-left: 7.5%;
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.2rem;
+    font-weight:500;
+}
+
+.Currently-Watching {
+    width: 40%;
+    align-items: center;
+    height: 265px;
+}
+
+.Suggested-To-Watch{
+    width: 60%;
+    align-items: center;
+}
+.posters{
+    height: 100%;
+    width: 90%;
+}
+
+/*===================
+        Posters
+=====================*/
+.movie-list{
+    display: flex;
+    gap: 20px;
+    overflow: scroll;
+    cursor: pointer;
+}
+::-webkit-scrollbar{
+   background-color: transparent;
+}
+/*===================
+        Posters
+=====================*/
+.previously{
+    margin-left: 7.5%;
+    width: 89%;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2rem;
+    font-weight:500;
+}
